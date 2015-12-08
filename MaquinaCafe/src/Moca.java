@@ -1,6 +1,6 @@
 public abstract class Moca extends CafeDecorator {
 
-    public Moca() {
+    public Moca(Cafe expresso) {
         super(new Leite(new Chocolate( new Acucar(new Expresso()))) );
 
 

@@ -1,6 +1,6 @@
 public abstract class Capuccino extends CafeDecorator {
 
-    public Capuccino() {
+    public Capuccino(Cafe expresso) {
         super(new Leite(new Canela (new Creme( new Acucar(new Expresso()))) ));
 
 
